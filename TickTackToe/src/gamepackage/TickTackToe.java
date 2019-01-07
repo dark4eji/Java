@@ -63,7 +63,7 @@ public class TickTackToe {
         public static boolean checkWin() {
         /** Метод выполняет проверку ходов на выигрыш/отсутствие условия выигрыша как человка, так и компьютера */
             boolean result = false;
-            int[] count = { 0, 0, 0, 0 };
+            int[] count = { 0, 0, 0, 0 };  //Содержит количество совпадений с символами игрока-человека
 
             for ( int i = 0; i < SIZE; i++ ) {
                 count[0] = ( map[i][i] != PLAYER_CHAR ) ? count[0] : count[0] + 1;
