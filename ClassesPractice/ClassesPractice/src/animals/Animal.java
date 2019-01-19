@@ -2,6 +2,10 @@ package animals;
 
 import java.util.Random;
 
+/**
+ * Абстрактный класс, выступающий в качестве родительского для
+ всех классов животных
+ */
 public abstract class Animal {
     Random rand = new Random();
 
@@ -11,16 +15,23 @@ public abstract class Animal {
 
     protected String name;
 
-    protected boolean canRun;
-    protected boolean canSwim;
-    protected boolean canJump;
+    protected boolean canRun;  // Может ли животное бегать. По умолчанию true
+    protected boolean canSwim; // Может ли животное плавать. По умолчанию true
+    protected boolean canJump; // Может ли животное прыгать. По умолчанию true
 
+    /**
+     * Конструктор без аргументов
+     */
     public Animal() {
         this.name = "Животное";
         this.canRun = true;
         this.canSwim = true;
         this.canJump = true;
     }
+
+    /**
+     * Конструктор, принимающий в качестве аргументов имя, и максимальные значения для действий
+     */
     public Animal(String name,
                   double runDistanceMax,
                   double swimDistanceMax,
@@ -34,6 +45,9 @@ public abstract class Animal {
         this.canJump = true;
     }
 
+    /**
+     * Конструктор, принимающий в качестве аргументов только имя, остальные значения генерирутся случайно
+     */
     public Animal(String name) {
         this.name = name;
         this.runDistanceMax = rand.nextInt(700);
@@ -44,6 +58,9 @@ public abstract class Animal {
         this.canJump = true;
     }
 
+    /**
+     * Метод, отвечающий за возможность бега.
+     */
     public boolean run(double runDistance){
         boolean result = false;
         if (this.canRun && runDistance <= runDistanceMax && runDistance > 0) {
@@ -59,6 +76,9 @@ public abstract class Animal {
         return result;
     }
 
+    /**
+     * Метод, отвечающий за возможность прыжка.
+     */
     public boolean jump(double height) {
         boolean result = false;
         if (this.canJump && height <= jumpHeightMax && height > 0) {
@@ -73,6 +93,9 @@ public abstract class Animal {
         return result;
     }
 
+    /**
+     * Метод, отвечающий за возможность плавания.
+     */
     public boolean swim(double swimDistance) {
         boolean result = false;
         if (this.canSwim && swimDistance <= swimDistanceMax
@@ -89,20 +112,27 @@ public abstract class Animal {
         return result;
     }
 
+    /**
+     * Абстрактный метод, отвечающий за голосовые сигналы животного
+     */
     public abstract void voice();
 
+    /**
+     * Метод, выводящий список текущих значений-характеристик животного.
+     */
     public void tellStats() {
+
         System.out.println("| " + this.name + " может: ");
         if (canRun) {
-            System.out.println("| " + "Бежать " + runDistanceMax + " м.");
+            System.out.println("| " + " - Бежать " + runDistanceMax + " м.");
         }
 
         if (canJump) {
-            System.out.println("| " + "Прыгать на " + jumpHeightMax + " м.");
+            System.out.println("| " + " - Прыгать на " + jumpHeightMax + " м.");
         }
 
         if (canSwim) {
-            System.out.println("| " + "Заплывать на " + swimDistanceMax + " м.");
+            System.out.println("| " + " - Заплывать на " + swimDistanceMax + " м.");
         }
     }
 }

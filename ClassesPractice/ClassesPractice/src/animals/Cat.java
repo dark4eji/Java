@@ -2,7 +2,7 @@ package animals;
 
 public class Cat extends Animal {
     public Cat(){
-        this.canSwim = false;
+        this.canSwim = false;  // Переопределяется родительское поле т.к. кот не может плавать
         this.runDistanceMax = 200;
         this.jumpHeightMax = 2;
         this.name = "Кот";

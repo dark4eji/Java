@@ -12,10 +12,13 @@ public class AnimalPlayground {
         dog1.swim(5);
         cat1.swim(2);
         cat1.jump(1);
+
+        gabeTheDog.tellStats();
         gabeTheDog.run(40);
         gabeTheDog.voice();
-        gabeTheDog.tellStats();
+
         sharikTheDog.voice();
+        murzikTheCat.tellStats();
         murzikTheCat.run(40);
         }
     }

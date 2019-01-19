@@ -19,8 +19,8 @@ public class MainClass {
                 "Psychiatrist", "luckystar@mail.com",
                 834545432, 250, 32);
 
-        for ( int i = 0; i < employeeArray.length; i++ ) {
-           if ( employeeArray[i].getAge() > 40 ) {
+        for (int i = 0; i < employeeArray.length; i++) {
+           if (employeeArray[i].getAge() > 40) {
                employeeArray[i].getInfo();
            }
         }
