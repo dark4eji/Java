@@ -1,5 +1,6 @@
 package animals;
 
+import java.sql.SQLOutput;
 import java.util.Random;
 
 /**
@@ -15,18 +16,19 @@ public abstract class Animal {
 
     protected String name;
 
-    protected boolean canRun;  // Может ли животное бегать. По умолчанию true
-    protected boolean canSwim; // Может ли животное плавать. По умолчанию true
-    protected boolean canJump; // Может ли животное прыгать. По умолчанию true
+    protected boolean canRun = true;
+    protected boolean canSwim = true;
+    protected boolean canJump = true;
 
+    protected int satietyIndex = 100;
+    protected int foodPerBite = 20;
+    protected int hungerMeter = 0;
+    protected boolean isFull = false;
     /**
      * Конструктор без аргументов
      */
     public Animal() {
         this.name = "Животное";
-        this.canRun = true;
-        this.canSwim = true;
-        this.canJump = true;
     }
 
     /**
@@ -40,9 +42,6 @@ public abstract class Animal {
         this.runDistanceMax = runDistanceMax;
         this.swimDistanceMax = swimDistanceMax;
         this.jumpHeightMax = jumpHeightMax;
-        this.canRun = true;
-        this.canSwim = true;
-        this.canJump = true;
     }
 
     /**
@@ -53,9 +52,6 @@ public abstract class Animal {
         this.runDistanceMax = rand.nextInt(700);
         this.swimDistanceMax = rand.nextInt(15);
         this.jumpHeightMax = 0.1 + (1 - 0.1) * rand.nextDouble();
-        this.canRun = true;
-        this.canSwim = true;
-        this.canJump = true;
     }
 
     /**
@@ -120,6 +116,49 @@ public abstract class Animal {
     /**
      * Метод, выводящий список текущих значений-характеристик животного.
      */
+    public void eat(boolean canEat) {
+        if (canEat && !isFull) {
+            hungerMeter += foodPerBite;
+           System.out.println(name + " поел(а) из миски");
+        } else if (!canEat) {
+            System.out.println("Для " + name + " нужно больше еды в миске");
+            checkSatiety(canEat);
+        }
+
+        if (hungerMeter < satietyIndex) {
+            System.out.println(name + " всё еще хочет есть");
+        } else if (hungerMeter >= satietyIndex) {
+            isFull = true;
+            System.out.println(name + " больше не хочет есть");
+        }
+    }
+
+    private void checkSatiety(boolean canEat) {
+        int value = 0;
+        for (int i = 0; i <= 100; i++) {
+            value = satietyIndex / 100 * i;
+            if ( value == hungerMeter ) {
+                value = i;
+                break;
+            }
+        }
+        System.out.println(name + " сыт на " + value + " процентов");
+    }
+
+    public int getFoodPerBite() {
+        return foodPerBite;
+    }
+
+    public void getSatietyIndex() {
+        System.out.println("Статус сытости " + name + ": " + hungerMeter
+                + " из " + satietyIndex);
+        if (!isFull) {
+            System.out.println(name + " всё еще хочет есть");
+        } else {
+            System.out.println(name + " больше не хочет есть");
+        }
+    }
+
     public void tellStats() {
 
         System.out.println("| " + this.name + " может: ");

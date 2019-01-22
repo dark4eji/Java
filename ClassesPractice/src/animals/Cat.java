@@ -10,9 +10,10 @@ public class Cat extends Animal {
 
     public Cat(String name,
                double runDistanceMax,
-               double swimDistanceMax,
                double jumpHeightMax){
-        super(name, runDistanceMax, swimDistanceMax, jumpHeightMax);
+        this.name = name;
+        this.runDistanceMax = runDistanceMax;
+        this.jumpHeightMax = jumpHeightMax;
         this.canSwim = false;
     }
 
@@ -20,6 +21,12 @@ public class Cat extends Animal {
         super(name);
         this.runDistanceMax = rand.nextInt(300);
         this.canSwim = false;
+    }
+
+    public Cat(String name, int satietyIndex, int foodPerBite) {
+        super(name);
+        this.satietyIndex = satietyIndex;
+        this.foodPerBite = foodPerBite;
     }
 
     @Override

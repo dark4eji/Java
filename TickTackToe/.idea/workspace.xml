@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d09052ca-cf00-457d-a2f5-e83ecdaee5b4" name="Default Changelist" comment="" />
+    <list default="true" id="d09052ca-cf00-457d-a2f5-e83ecdaee5b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ClassesPractice/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClassesPractice/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesPractice/ClassesPractice.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesPractice/ClassesPractice/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesPractice/ClassesPractice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesPractice/ClassesPractice/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesPractice/ClassesPractice/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesPractice/ClassesPractice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesPractice/ClassesPractice/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesPractice/ClassesPractice/ClassesPractice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesPractice/ClassesPractice/out/production/ClassesPractice/animals/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesPractice/ClassesPractice/out/production/ClassesPractice/animals/AnimalPlayground.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesPractice/ClassesPractice/out/production/ClassesPractice/animals/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesPractice/ClassesPractice/out/production/ClassesPractice/animals/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesPractice/ClassesPractice/out/production/ClassesPractice/classes/practice/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesPractice/ClassesPractice/out/production/ClassesPractice/classes/practice/MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesPractice/ClassesPractice/src/animals/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesPractice/ClassesPractice/src/animals/AnimalPlayground.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesPractice/ClassesPractice/src/animals/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesPractice/ClassesPractice/src/animals/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesPractice/ClassesPractice/src/classes/practice/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesPractice/ClassesPractice/src/classes/practice/MainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gamepackage/TicTacToe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="108">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#initMap#0;class#TicTacToe#0" />
@@ -60,6 +84,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -82,13 +108,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547744565813" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ClassesPractice" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
@@ -169,7 +193,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2534413" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26153848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -246,8 +270,8 @@
     <entry file="file://$PROJECT_DIR$/src/gamepackage/lkh.java" />
     <entry file="file://$PROJECT_DIR$/src/gamepackage/TicTacToe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#initMap#0;class#TicTacToe#0" />
