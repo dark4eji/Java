@@ -2,30 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c0ff85b-48b0-41a2-b907-e5a777860c3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animals/Bowl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassesPractice.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassesPractice/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassesPractice/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassesPractice/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassesPractice/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassesPractice/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassesPractice/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassesPractice/ClassesPractice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassesPractice/out/production/ClassesPractice/animals/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassesPractice/out/production/ClassesPractice/animals/AnimalPlayground.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassesPractice/out/production/ClassesPractice/animals/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassesPractice/out/production/ClassesPractice/animals/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassesPractice/out/production/ClassesPractice/classes/practice/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassesPractice/out/production/ClassesPractice/classes/practice/MainClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassesPractice/src/animals/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassesPractice/src/animals/AnimalPlayground.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassesPractice/src/animals/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassesPractice/src/animals/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassesPractice/src/classes/practice/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassesPractice/src/classes/practice/MainClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TickTackToe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TickTackToe/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animals/MainAnimalPlayground.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClassesPractice/animals/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClassesPractice/animals/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClassesPractice/animals/AnimalPlayground.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClassesPractice/animals/Bowl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClassesPractice/animals/Bowl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClassesPractice/animals/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClassesPractice/animals/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animals/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animals/AnimalPlayground.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animals/Bowl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animals/Bowl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,24 +24,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/animals/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="143" column="9" selection-start-line="143" selection-start-column="9" selection-end-line="143" selection-end-column="9" />
+            <state relative-caret-position="126">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4823#4824#0" expanded="true" />
+                <element signature="e#5351#5352#0" expanded="true" />
+                <element signature="e#5385#5386#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/animals/Cat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="54">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
-                <element signature="e#879#880#0" expanded="true" />
-                <element signature="e#945#946#0" expanded="true" />
+                <element signature="method#Cat#1;class#Cat#0" />
               </folding>
             </state>
           </provider>
@@ -65,21 +49,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/animals/Bowl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="-411">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#2099#2100#0" expanded="true" />
+                <element signature="e#2132#2133#0" expanded="true" />
+                <element signature="e#2280#2281#0" expanded="true" />
+                <element signature="e#2315#2316#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/animals/AnimalPlayground.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/animals/MainAnimalPlayground.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            <state relative-caret-position="-1260">
+              <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#2204#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,10 +97,12 @@
         <option value="$PROJECT_DIR$/src/animals/test.java" />
         <option value="$PROJECT_DIR$/src/classes/practice/MainClass.java" />
         <option value="$PROJECT_DIR$/src/animals/Dog.java" />
-        <option value="$PROJECT_DIR$/src/animals/Cat.java" />
-        <option value="$PROJECT_DIR$/src/animals/Bowl.java" />
-        <option value="$PROJECT_DIR$/src/animals/Animal.java" />
+        <option value="$PROJECT_DIR$/src/animals/df.java" />
         <option value="$PROJECT_DIR$/src/animals/AnimalPlayground.java" />
+        <option value="$PROJECT_DIR$/src/animals/Bowl.java" />
+        <option value="$PROJECT_DIR$/src/animals/Cat.java" />
+        <option value="$PROJECT_DIR$/src/animals/MainAnimalPlayground.java" />
+        <option value="$PROJECT_DIR$/src/animals/Animal.java" />
       </list>
     </option>
   </component>
@@ -149,13 +140,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548181200261" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548265137812" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -169,9 +161,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AnimalPlayground">
-    <configuration name="AnimalPlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="animals.AnimalPlayground" />
+  <component name="RunManager">
+    <configuration name="MainAnimalPlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="animals.MainAnimalPlayground" />
       <module name="ClassesPractice" />
       <extension name="coverage">
         <pattern>
@@ -196,9 +188,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="df" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="animals.df" />
+      <module name="ClassesPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="animals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AnimalPlayground" />
+        <item itemvalue="Application.MainAnimalPlayground" />
+        <item itemvalue="Application.df" />
         <item itemvalue="Application.MainClass" />
       </list>
     </recent_temporary>
@@ -218,9 +224,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23076923" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991708" visible="true" weight="0.23481782" />
+      <window_info id="Structure" order="1" sideWeight="0.50082916" side_tool="true" weight="0.23481782" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -228,7 +235,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3283582" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.049751244" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39966834" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -252,8 +259,8 @@
     <entry file="file://$PROJECT_DIR$/src/classes/practice/MainClass.java" />
     <entry file="file://$PROJECT_DIR$/src/animals/Dog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="339">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#457#458#0" expanded="true" />
             <element signature="e#484#485#0" expanded="true" />
@@ -261,43 +268,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/animals/Bowl.java">
+    <entry file="file://$PROJECT_DIR$/src/animals/df.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="162">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/animals/MainAnimalPlayground.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1260">
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
           <folding>
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#0#2204#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/animals/Cat.java">
+    <entry file="file://$PROJECT_DIR$/src/animals/Bowl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="-411">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#2099#2100#0" expanded="true" />
+            <element signature="e#2132#2133#0" expanded="true" />
+            <element signature="e#2280#2281#0" expanded="true" />
+            <element signature="e#2315#2316#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/animals/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="143" column="9" selection-start-line="143" selection-start-column="9" selection-end-line="143" selection-end-column="9" />
+        <state relative-caret-position="126">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4823#4824#0" expanded="true" />
+            <element signature="e#5351#5352#0" expanded="true" />
+            <element signature="e#5385#5386#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/animals/AnimalPlayground.java">
+    <entry file="file://$PROJECT_DIR$/src/animals/Cat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="method#Cat#1;class#Cat#0" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,6 +1,5 @@
 package animals;
 
-import java.sql.SQLOutput;
 import java.util.Random;
 
 /**
@@ -20,10 +19,11 @@ public abstract class Animal {
     protected boolean canSwim = true;
     protected boolean canJump = true;
 
-    protected int satietyIndex = 100;
-    protected int foodPerBite = 20;
-    protected int hungerMeter = 0;
-    protected boolean isFull = false;
+    protected float satietyIndex = 100;  // Максимальное значение насыщенности животного
+    protected int foodPerBite = 20;  // Количество пищи, потребляемое за один цикл
+    protected float hungerMeter = 0; // Уровень голода: минимум = 0; максимум = индексу насыщения
+    protected boolean isFull = false;  // Голодно животное или нет. По умолчанию голодно
+
     /**
      * Конструктор без аргументов
      */
@@ -114,51 +114,68 @@ public abstract class Animal {
     public abstract void voice();
 
     /**
-     * Метод, выводящий список текущих значений-характеристик животного.
+     * Метод, отвечающий за потребление пищи животным и проверку его насыщенности
+     * На вход получает булевое значение о возможности потребления пищи из
+     * конкретной ёмкости.
+     * Для определения насыщенности животного высчитывается процентное соотношение
+     * уже съеденной пищи к максимальному значению насыщенности (4 состояния).
+     *
+     * @param canEat
      */
     public void eat(boolean canEat) {
         if (canEat && !isFull) {
             hungerMeter += foodPerBite;
-           System.out.println(name + " поел(а) из миски");
-        } else if (!canEat) {
+            System.out.println(name + " отъел(а) " + foodPerBite
+                    + " единиц еды из миски");
+        } else if (!canEat && !isFull) {
             System.out.println("Для " + name + " нужно больше еды в миске");
-            checkSatiety(canEat);
         }
+        float fullnesPercentage = (hungerMeter / (satietyIndex / 100));
 
-        if (hungerMeter < satietyIndex) {
-            System.out.println(name + " всё еще хочет есть");
-        } else if (hungerMeter >= satietyIndex) {
+        if (fullnesPercentage < 50) {
+            System.out.println(name + " всё еще голодный");
+        } else if (fullnesPercentage >= 50 && fullnesPercentage < 85) {
+            System.out.println(name + " подъел, но не отказался бы еще");
+        } else if (fullnesPercentage >= 85 && fullnesPercentage < 95) {
+            System.out.println(name + " неплохо покушал");
+        } else if (fullnesPercentage >= 95) {
+            System.out.println(name + " наелся до отвала");
             isFull = true;
-            System.out.println(name + " больше не хочет есть");
         }
     }
 
-    private void checkSatiety(boolean canEat) {
-        int value = 0;
-        for (int i = 0; i <= 100; i++) {
-            value = satietyIndex / 100 * i;
-            if ( value == hungerMeter ) {
-                value = i;
-                break;
-            }
-        }
-        System.out.println(name + " сыт на " + value + " процентов");
-    }
-
+    /**
+     * Возвращает количество пищи, съедаемое за один цикл, в виде
+     * целочисленного значения.
+     *
+     * @return
+     * */
     public int getFoodPerBite() {
         return foodPerBite;
     }
 
-    public void getSatietyIndex() {
+    /**
+     * Выводит информацию о насыщенности животного и возвращает соответствующее
+     * булевое значение.
+     * @return
+     */
+    public boolean getSatietyIndex() {
+        boolean result = false;
         System.out.println("Статус сытости " + name + ": " + hungerMeter
-                + " из " + satietyIndex);
+                + " из " + satietyIndex
+                + " (" + hungerMeter / (satietyIndex / 100) + "%)");
         if (!isFull) {
-            System.out.println(name + " всё еще хочет есть");
+            System.out.println(name + " всё еще что-нибудь бы съел");
         } else {
             System.out.println(name + " больше не хочет есть");
+            result = true;
         }
+        return result;
     }
 
+    /**
+     * Метод, выводящий список текущих значений-характеристик животного.
+     */
     public void tellStats() {
 
         System.out.println("| " + this.name + " может: ");

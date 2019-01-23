@@ -1,10 +1,9 @@
 package animals;
 
 public class Bowl {
-    private int bowlCapacity = 40;
+    private int bowlCapacity = 40;  // Вместимость миски
     private String name = "Миска";
-    private int remainings;
-
+    private int remainings;  // Переменная-буфер, хранящая текущее значение еды
 
     public Bowl(){
     }
@@ -24,6 +23,12 @@ public class Bowl {
         this.remainings = bowlCapacity;
     }
 
+    /**
+     * Добавляет в миску указанное количество еды.
+     * Выполняет проверку на превышение вместимости.
+     *
+     * @param foodAmount
+     */
     public void addFood(int foodAmount){
         if (remainings + foodAmount > bowlCapacity) {
             System.out.println("Сейчас в миске " + remainings
@@ -31,12 +36,20 @@ public class Bowl {
         } else if (remainings + foodAmount <= bowlCapacity) {
             remainings += foodAmount;
             System.out.println("Вы пополнили миску на " + foodAmount
-                    + " единиц\n" +
-                    "Миска наполнена на " + remainings + " единиц из "
+                    + " единиц\n" + "Миска наполнена на "
+                    + remainings + " единиц из "
                     + bowlCapacity);
         }
     }
 
+    /**
+     * Обрабатывает запрос на предоставление еды.
+     * Вернет false, если запрошенное значение приведет к отрицательному
+     * количеству еды в миске.
+     *
+     * @param foodAmount
+     * @return
+     */
     public boolean provideFood(int foodAmount) {
         boolean result = false;
         if (remainings - foodAmount < 0) {
@@ -48,7 +61,29 @@ public class Bowl {
         return result;
     }
 
-    public void getFoodRemainigs() {
+    /**
+     * Выводит количество оставшейся еды в миске.
+     * Выполняет информативную роль.
+     */
+    public void printFoodRemainigs() {
         System.out.println("Cейчас в миске " + remainings + " единиц еды");
+    }
+
+    /**
+     * Возвращает оставшейся еды в миске в виде целочисленного значения.
+     *
+     * @return
+     */
+    public int getFoodRemainigs(){
+        return remainings;
+    }
+
+    /**
+     * Возвращает общую вместимость миски в виде целочисленного значения.
+     *
+     * @return
+     */
+    public int getBowlCapacity() {
+        return bowlCapacity;
     }
 }
