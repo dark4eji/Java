@@ -2,17 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4be165a1-912b-4a4b-9ee1-add6c0731669" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/calculator/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/calculator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/calculator/Operations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/calculator/RequestParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/calculator/RequestReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/src/al/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo/src/Init.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo/src/creature_type/Humanoid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo/src/locations/Arena.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo/src/race/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo/src/race/Orc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeGUI/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeGUI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeGUI/src/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeGUI/src/game/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeGUI/src/game/GameAI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeGUI/src/game/GameActionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeGUI/src/game/GameBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeGUI/src/game/GameButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeGUI/src/game/GameHumanTurn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeGUI/src/game/GamePlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeGUI/src/game/GameStateChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ClassesPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClassesPractice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClassesPractice/out/production/ClassesPractice/META-INF/ClassesPractice.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClassesPractice/out/production/ClassesPractice/animals/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ClassesPractice/out/production/ClassesPractice/animals/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClassesPractice/out/production/ClassesPractice/animals/MainAnimalPlayground.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ClassesPractice/out/production/ClassesPractice/animals/MainAnimalPlayground.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClassesPractice/out/production/ClassesPractice/classes/practice/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClassesPractice/out/production/ClassesPractice/classes/practice/MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utilities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../utilities/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utilities/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utilities/Utilities.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/calculator/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5649">
-              <caret line="273" column="42" selection-start-line="273" selection-start-column="42" selection-end-line="273" selection-end-column="42" />
+            <state relative-caret-position="778">
+              <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,6 +100,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,12 +124,11 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548700774767" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../utilities" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549980483919" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GuessingGame" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -181,7 +192,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.098614074" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09968017" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -235,8 +246,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/calculator/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5649">
-          <caret line="273" column="42" selection-start-line="273" selection-start-column="42" selection-end-line="273" selection-end-column="42" />
+        <state relative-caret-position="778">
+          <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

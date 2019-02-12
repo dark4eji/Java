@@ -2,12 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c0ff85b-48b0-41a2-b907-e5a777860c3b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassesPractice/META-INF/ClassesPractice.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassesPractice/animals/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClassesPractice/animals/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassesPractice/animals/MainAnimalPlayground.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClassesPractice/animals/MainAnimalPlayground.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassesPractice/classes/practice/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassesPractice/classes/practice/MainClass.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/src/al/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo/src/Init.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo/src/creature_type/Humanoid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo/src/locations/Arena.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo/src/race/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo/src/race/Orc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeGUI/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeGUI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeGUI/src/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeGUI/src/game/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeGUI/src/game/GameAI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeGUI/src/game/GameActionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeGUI/src/game/GameBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeGUI/src/game/GameButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeGUI/src/game/GameHumanTurn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeGUI/src/game/GamePlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToeGUI/src/game/GameStateChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utilities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../utilities/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utilities/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utilities/Utilities.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/animals/MainAnimalPlayground.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+            <state relative-caret-position="162">
+              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -102,7 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,12 +139,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548268182179" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549980320294" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Calculator" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
@@ -209,9 +224,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991708" visible="true" weight="0.24520256" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991708" visible="true" weight="0.24786781" />
       <window_info id="Structure" order="1" sideWeight="0.50082916" side_tool="true" weight="0.23481782" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -280,8 +294,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/animals/MainAnimalPlayground.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+        <state relative-caret-position="162">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
         </state>
       </provider>
     </entry>
